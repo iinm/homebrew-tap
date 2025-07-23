@@ -2,10 +2,10 @@ class AgentSandbox < Formula
   desc "Run a command in a sandboxed Docker environment"
   homepage "https://github.com/iinm/dotfiles/tree/main/agent-sandbox"
 
-  url "https://raw.githubusercontent.com/iinm/dotfiles/5e23b9ade45f481f6105fd2b4fcb2e8b77587f3f/agent-sandbox/bin/agent-sandbox"
-  sha256 "d1dedd0558ceeadfc85c65a735230d8232ead88351935f3f2ec765d9620b1b26"
+  url "https://raw.githubusercontent.com/iinm/dotfiles/c09531c3731b139e4f9246e0b9e732720aacff2d/agent-sandbox/bin/agent-sandbox"
+  sha256 "f12e0db57f165ee08e8bc46ef2b1d044f04876f3a08340869838b98b8d6ca4ed"
 
-  version "0.0.5"
+  version "0.0.6"
 
   def install
     bin.install "agent-sandbox"
